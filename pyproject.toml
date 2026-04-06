@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "codestats-analyzer"
-version = "1.10.3"
-description = "Python code analysis tool with insights - like GitHub insights but local"
+version = "1.10.4"
+description = "A powerful Python code analysis tool providing instant insights into code quality, complexity, and maintainability - like GitHub Insights but local"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {file = "LICENSE"}
 authors = [
     {name = "Himanshu Tadav", email = "himanshuyada70@gmail.com"}
 ]
-keywords = ["code", "analysis", "metrics", "quality", "complexity", "linting"]
+keywords = ["code", "analysis", "metrics", "quality", "complexity", "linting", "code-quality", "static-analysis", "python-tools", "developer-tools"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
