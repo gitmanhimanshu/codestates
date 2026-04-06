@@ -13,21 +13,13 @@ Python code analysis tool that gives you insights about your codebase - like Git
 
 ## 📦 Installation
 
-### From GitHub (Direct):
-```bash
-pip install git+https://github.com/yourusername/codestats.git
-```
-
-### From PyPI:
 ```bash
 pip install codestats-analyzer
 ```
 
-### For Development:
+Or from GitHub:
 ```bash
-git clone https://github.com/yourusername/codestats.git
-cd codestats
-pip install -e .
+pip install git+https://github.com/yourusername/codestats.git
 ```
 
 ## 💻 Usage
