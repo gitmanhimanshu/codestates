@@ -1,6 +1,7 @@
 """Code quality scoring and suggestions"""
 
 from typing import List
+from pathlib import Path
 from .metrics import FileMetrics
 
 
