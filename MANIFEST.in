@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include QUICKSTART.md
+include TEST.md
+include DEPLOY.md
+include GITHUB_SETUP.md
+recursive-include codestats *.py
+recursive-include tests *.py
