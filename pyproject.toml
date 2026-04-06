@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codestats-analyzer"
+version = "1.0.0"
+description = "Python code analysis tool with insights - like GitHub insights but local"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Himanshu Tadav", email = "himanshuyada70@gmail.com"}
+]
+keywords = ["code", "analysis", "metrics", "quality", "complexity", "linting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Quality Assurance",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/gitmanhimanshu/codestates"
+"Bug Reports" = "https://github.com/gitmanhimanshu/codestates/issues"
+Source = "https://github.com/gitmanhimanshu/codestates"
+
+[project.scripts]
+codestats = "codestats.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["codestats*"]
+exclude = ["tests*"]
