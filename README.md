@@ -36,6 +36,19 @@ pip install -e .
 
 ## 💻 Usage
 
+### Command line:
+
+```bash
+# Analyze current directory
+codestats .
+
+# Analyze specific project
+codestats myproject/
+
+# Analyze specific file
+codestats myfile.py
+```
+
 ### As a Python module:
 
 ```python
@@ -48,14 +61,10 @@ print(report)
 # Access specific metrics
 print(f"Score: {report.score}/10")
 print(f"Functions: {report.functions}")
+print(f"Complexity: {report.complexity}")
 ```
 
-### From command line:
-
-```bash
-codestats .
-codestats myproject/
-```
+**Full guide**: See [USER_GUIDE.md](USER_GUIDE.md) for detailed usage examples!
 
 ## 📊 Example Output
 
