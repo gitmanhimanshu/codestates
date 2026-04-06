@@ -1,5 +1,9 @@
 # 📊 CodeStats
 
+[![PyPI version](https://badge.fury.io/py/codestats-analyzer.svg)](https://pypi.org/project/codestats-analyzer/)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Python code analysis tool that gives you insights about your codebase - like GitHub insights but local!
 
 ## 🚀 Features
@@ -13,13 +17,21 @@ Python code analysis tool that gives you insights about your codebase - like Git
 
 ## 📦 Installation
 
+### From PyPI (Recommended):
 ```bash
 pip install codestats-analyzer
 ```
 
-Or from GitHub:
+### From GitHub:
 ```bash
-pip install git+https://github.com/yourusername/codestats.git
+pip install git+https://github.com/gitmanhimanshu/codestates.git
+```
+
+### For Development:
+```bash
+git clone https://github.com/gitmanhimanshu/codestates.git
+cd codestates
+pip install -e .
 ```
 
 ## 💻 Usage
@@ -86,6 +98,12 @@ Unlike other tools, CodeStats focuses on:
 - **Actionable**: Specific suggestions, not just numbers
 - **Local**: No need to push to GitHub
 - **Fast**: Analyzes projects in seconds
+
+## 🔗 Links
+
+- **PyPI**: https://pypi.org/project/codestats-analyzer/
+- **GitHub**: https://github.com/gitmanhimanshu/codestates
+- **Issues**: https://github.com/gitmanhimanshu/codestates/issues
 
 ## 📝 License
 
