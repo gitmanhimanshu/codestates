@@ -15,6 +15,21 @@ Python code analysis tool that gives you insights about your codebase - like Git
 - ⭐ **Quality Score**: Get a score from 0-10
 - 💡 **Smart Suggestions**: Actionable improvement tips
 
+## 🌐 Supported Languages
+
+### ✅ Fully Supported:
+- **Python** (.py) - Complete analysis with AST parsing
+
+### 🚧 Coming Soon (v2.0):
+- **JavaScript/TypeScript** (.js, .ts, .jsx, .tsx)
+- **Java** (.java)
+- **C/C++** (.c, .cpp, .h, .hpp)
+- **Go** (.go)
+- **Ruby** (.rb)
+- **PHP** (.php)
+
+**Note**: Currently optimized for Python projects. Multi-language support is planned for future releases!
+
 ## 📦 Installation
 
 ### From PyPI (Recommended):
